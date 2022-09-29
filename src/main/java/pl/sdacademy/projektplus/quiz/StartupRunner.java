@@ -20,7 +20,6 @@ public class StartupRunner implements CommandLineRunner {
     @Autowired
     private QuizDataService quizDataService;
 
-
     @Override
     public void run(String...args) throws Exception {
         log.info("Executing startup actions...");
